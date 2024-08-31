@@ -5,7 +5,9 @@ export const Login = () => {
   return (
     <div className="min-h-screen w-full flex justify-center items-center bg-white">
       <div className="flex flex-col items-center gap-14 w-full">
-        <GPTLogo />
+        <div className="size-[30px]">
+          <GPTLogo />
+        </div>
 
         <div className="sm:w-96 w-full px-7">
           <div className="text-[#2E3339] text-[31px] font-bold">
