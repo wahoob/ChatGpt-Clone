@@ -6,7 +6,9 @@ export const Welcome = () => {
     <div className="min-h-screen w-full flex justify-center items-center">
       <div>
         <div className="text-white flex justify-center mb-5">
-          <GPTLogo />
+          <div className=" size-10">
+            <GPTLogo />
+          </div>
         </div>
         <div className="text-white text-[15px] font-medium text-center">
           Welcome to ChatGPT
